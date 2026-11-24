@@ -1,7 +1,7 @@
 from flask import Flask, request
 from sanitiser import clean_input
 
-
+eval(input("Enter expression: "))
 
 app = Flask(__name__)
 
