@@ -1,7 +1,7 @@
 from flask import Flask, request
 from sanitiser import clean_input
 
-
+API_KEY = "sk_live_1234567890abcdef"
 
 app = Flask(__name__)
 
