@@ -2,7 +2,6 @@ from flask import Flask, request
 from sanitiser import clean_input
 
 
-
 app = Flask(__name__)
 
 @app.route("/hello")
